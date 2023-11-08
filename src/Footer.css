@@ -1,0 +1,120 @@
+.map-row{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    width:100%;
+    background-color: rgba(0,0,0,0.9);
+    color:white;
+    height: 450px;
+}
+
+.icons-row{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+.icons{
+    display: flex;
+    justify-content: space-between;
+    width: 23%;
+    padding-left: 3%;
+
+}
+
+.mailBox{
+    width:17%;
+    cursor: pointer;
+}
+
+.mailBox:hover{
+    color:blueviolet;
+}
+
+.number{
+    width:16%;
+    padding-left: 2%;
+    cursor: pointer;
+}
+
+.number:hover{
+    color:blueviolet;
+}
+
+.icon{
+    padding:5px 5px;
+    font-size: 25px;
+    background-color: rgba(255,255,255,0.1);   
+    cursor: pointer;
+}
+
+.icon:hover{
+    background-color: blueviolet;
+}
+.map-row-left{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width:50%;
+}
+
+.map-row-right{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding:2% 2%;
+    width:50%;
+    position: relative;
+}
+
+.map-row-left-list{
+    display: flex;
+    font-family:Arial, Helvetica, sans-serif;
+    justify-content: space-evenly;
+}
+
+.map-row-left-list ul{
+    list-style-type: none;
+    /* background-color: aqua; */
+}
+
+.map-row-left-list ul li{
+    padding: 10px;
+    font-size: medium;
+}
+
+.map-row-left-list ul li:hover{
+    /* font-weight: 600; */
+    color:blueviolet;
+    cursor: pointer;
+}
+
+.dotIndia{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    bottom: 43%;
+    right: 34%;
+}
+
+.dotSydney{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    position: absolute;
+    z-index: 1;
+    bottom: 26%;
+    right: 19%;
+}
+
+.dot{
+    display: inline-block;
+    position: absolute;
+    right:50%;
+    bottom: 15%;
+    height: 8px;
+    width: 8px;
+    border-radius: 4px;
+    background-color: white;
+}

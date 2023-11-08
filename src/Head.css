@@ -1,0 +1,103 @@
+.headMain{
+    display:flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight:bolder;
+    left:0;
+    top:0;
+    right:0;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    font-family: Source Sans Pro;
+    transition: 0.4s;
+}
+
+.headMainDown{
+    color: white;
+    display:flex;
+    justify-content: space-around;
+    font-size: large;
+    font-weight:bolder;
+    left:0;
+    top:0;
+    padding-top: 1%;
+    right:0;
+    height: 70px;
+    position: fixed;
+    z-index: 1;
+    font-family: Source Sans Pro;
+}
+
+.headMainDown:hover ul li{
+    color: black;
+}
+
+.headMainDown:hover ul li:hover{
+    color: blueviolet;
+}
+.headMainDown:hover{
+    background-color: white;
+    color: black;
+}
+
+.headMain-bg{
+    background-color: white;
+}
+
+.head navbar ul li{
+    color: black;
+}
+
+.headMain:hover{
+    color: black;
+    background-color:white ;
+}
+
+.headMain img:hover{
+   cursor: pointer;
+}
+
+
+.navbar ul li{
+    padding:28px 20px 28px;
+    display: inline;
+    cursor: pointer;
+    color: white;
+}
+.summ ul li{
+    color:black
+}
+
+.navbar ul li:hover{
+    color:blueviolet
+}
+
+.headMain h1{
+    color: white;
+    cursor: pointer;
+}
+
+.head h1{
+    color:black;
+}
+
+
+.head h1:hover{
+  color: blueviolet;
+}
+
+button{
+    color:white;
+    font-size: large;
+    background-color: blueviolet;
+    font-family: Source Sans Pro;
+    border: none;
+}
+
+button:hover{
+    color: blueviolet;
+    background-color: white;
+    border-color: blueviolet;
+    border:1px solid;
+}

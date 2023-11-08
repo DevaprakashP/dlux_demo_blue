@@ -1,0 +1,26 @@
+.client{
+    /* background-image: url("https://www.worldatlas.com/r/w1200/upload/04/81/5a/shutterstock-372187969.jpg");
+    background-repeat: no-repeat; */
+    background-color: rgba(0,0,0,0.7);
+    max-width: 100%; 
+    left:0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+}
+
+.clients{
+    text-align:center;
+    font-family: 'Lato', sans-serif;
+    width:86.5%;
+    color: white;
+    /* background-color: aqua; */
+}
+
+
+.clientsList{
+    display: grid;
+    grid-template-columns: repeat(auto-fit,200px);
+    column-gap: 20px;
+    row-gap: 20px;
+}

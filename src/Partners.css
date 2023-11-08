@@ -1,0 +1,29 @@
+.partners{
+    display: flex;
+    width:90%;
+    padding: 4%;
+}
+.partnersLeft{
+    font-family: 'Lato', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 150%;
+    color: white;
+    background-color: rgb(0, 0, 0,0.9);
+    padding:4%;
+    width:35%;
+}
+.partnersRight{
+    width:65%;
+    display: grid;
+    grid-template-columns: repeat(auto-fit,260px);
+    background-color: grey;
+}
+
+.imageDiv{
+    cursor: pointer;
+    filter:grayscale(100%);
+}
+
+.imageDiv:hover{
+    filter:grayscale(0%)
+}
